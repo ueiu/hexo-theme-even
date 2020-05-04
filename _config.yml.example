@@ -88,6 +88,19 @@ google_analytics:
 # Google Verification
 google_verification:
 
+# Valine comment https://valine.js.org
+# more configuration https://valine.js.org/configuration.html
+# enable 选项是我自己定义的，可参照官方原版写法写
+valine:
+  enable: false
+  appid:  # your leancloud appid
+  appkey:  # your leancloud appkey
+  avatar: retro # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+  placeholder: 在这高谈阔论吧！ # comment box placeholder
+  path: window.location.pathname # 当前文章页路径，用于区分不同的文章页，以保证正确读取该文章页下的评论列表
+  pageSize: 10 # 评论列表分页，每页条数，default: 10
+  recordIP: false # 是否记录评论者IP，default: false
+
 # Disqus
 disqus_shortname:
 
